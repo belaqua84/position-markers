@@ -1,0 +1,41 @@
+/*  Position Markers  */
+
+.position-markers {
+  position: absolute;
+}
+  
+.fixed-markers .position-markers {
+  position: fixed;
+  top: 0px; 
+}
+.position-markers button {
+  width: 13px;
+  height: 13px;
+  background: #d1d3d4;
+  text-indent: -9000px;
+  border: 0;
+  display: block;
+  margin-top: 13px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease; 
+}
+.position-markers button:first-child {
+  margin-top: 0px;
+}
+
+.position-markers button.active {
+  background: #232561;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
