@@ -1,7 +1,7 @@
 # position-markers
 Angular directive to mark your position as your scroll.
 
-demo: [plnkr](http://plnkr.co/edit/qXXPYS?p=preview)
+demo: [plnkr](http://plnkr.co/edit/9nKPll?p=preview)
 
 This directive has buttons that mark the position of which active section you're at as you scroll. Alone, all this directive does is mark the position.  I typically use this in conjunction with my scroll ease
   directive which adds a scroll-to action onclick of a button.  [scroll-ease](https://github.com/belaqua84/scroll-ease).
